@@ -3,10 +3,11 @@
         width: 60%;
         font-family: "Nanum Gothic", "맑은 고딕", Dotum;
         color: #404040;
-        font-size: 95%;}
+        font-size: 95%;
+        text-align: center;}
         a {text-decoration: none;
         color:white; }
-        #header{background-color: #2255e3;
+        #header{background-color: hsl(224, 23%, 64%);
                 color:white;}
         label, #toggle {display:none;}
         #nav {padding: 0;
