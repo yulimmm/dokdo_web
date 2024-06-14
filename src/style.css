@@ -14,15 +14,16 @@
 body {
         margin: 0 auto;
         width: 60%;
-        /*font-family: "Nanum Gothic", "맑은 고딕", Dotum;*/
+        font-family: "InterparkGothic", "맑은 고딕", Dotum;
         font-weight: normal;
         color: #404040;
         font-size: 95%;
+        text-align: center;
     }
     
     a {
         text-decoration: none;
-        color: white;
+        color: rgb(255, 255, 255);
     }
     
     #header {
@@ -49,9 +50,7 @@ body {
     }
 
     #nav a.active {
-        background-color: #1B4F72;
-        color: yellow; /* 활성화된 링크의 글자색 */
-        border-radius: 5px; /* 둥근 테두리 */
+        color: rgb(255, 235, 51); 
     }
     
     #contents {
@@ -88,6 +87,7 @@ body {
         line-height: 1.7em;
     }
 
+    /*info-box*/
     .info-box {
         border: 1px solid #ddd;
         padding: 20px;
@@ -114,6 +114,36 @@ body {
         width: 30%;
     }
     
+    /*contents-box*/
+    .contents-box {
+        display: inline-block;
+        width: 700px;
+        height: auto;
+        background-color: #f0f0f0;
+        padding: 10px;
+        margin-bottom: 20px;
+        overflow: hidden; /* Clearfix */
+    }
+
+    .contents-box img {
+        /*float: left;*/
+        margin-right: 10px;
+        max-width: 200px; /* 임의의 이미지 크기 */
+    }
+
+    .contents-box h3 {
+        margin-top: 0;
+    }
+
+    .contents-box a {
+        float: right;
+        color: rgb(199, 118, 100);
+        display: block;
+        clear: both;
+        font-size: 20px;
+        text-decoration: underline;
+    }
+
     #footer {
         background-color: #323232;
         color: white;
